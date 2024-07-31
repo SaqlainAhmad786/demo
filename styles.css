@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Assistant';
+    src: url(./fonts/Assistant-VariableFont_wght.ttf);
+}
+
+:root {
+    --color1: #000000;
+    --color2: #4E4FEB;
+    --color3: #068FFF;
+    --color4: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+    /* background-color: #f5f5f7; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    font-family: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+.customContainer {
+    max-width: 75%;
+    margin-inline: auto;
+}
+
+@media (width<568px) {
+    .customContainer {
+        max-width: 90%;
+    }
+}
